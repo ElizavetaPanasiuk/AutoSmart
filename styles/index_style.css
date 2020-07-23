@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+section img{
+    width: 1200px;
+}
+article img{
+    width: 246px;
+    margin: 10px 0px;
+}
+article h3{
+    text-align: center;
+}
+aside h2{
+    text-align: center;
+    font-size: 32px;
+    color:#A70A0E;
+    text-shadow: -1px -1px 1px rgb(105, 4, 4);
+}
+input.more{
+    display: block;
+    margin: 5px 0px 5px auto;
+    color: #A70A0E;
+    font-size: 18px;
+    padding: 5px;
+}
+table{
+    background-color: white;
+    margin: 50px auto;
+    width: 600px;
+    border: 2px solid #A70A0E;
+    border-spacing: 0px;
+}
+table img{
+    width: 100px;
+}
+table tr{
+    height: 100px;
+}
+table tr td, table tr th{
+    text-align: center;
+    border: 1px solid #A70A0E;
+    width: 200px;
+}
+table tr td:hover, table tr th:hover{
+    font-weight: bold;
+}
+table tr th{
+    font-size: 22px;
+}
+main section{
+    background-color: #E1E2E1;
+    width: 600px;
+    margin: 50px auto 0px;
+    box-shadow: 7px 7px 12px rgba(255, 255, 255, 0.664);
+    padding: 20px;
+}
+main section p, main section ul{
+    font-size: 24px;
+    margin: 10px 30px;
+    font-family: 'Inter', sans-serif;
+    color: #3C3C3C;
+}
+main ul{
+    list-style-position: inside;
+    list-style-type: none;
+}
+main ul li{
+    line-height: 34px;
+}
+main iframe{
+    margin: 0px 100px;
+}
+main ul li img{
+    width: 20px;
+}

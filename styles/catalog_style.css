@@ -1,0 +1,44 @@
+div.car{
+    width: 250px;
+    height: 350px;
+    position: relative;
+    margin: 50px 0px;
+    background-color: white;
+    border: 2px solid #9F0F0F;
+}
+div.car img{
+    width: 246px;
+}
+div.car input{
+    width: 200px;
+    height: 50px;
+    font-size: 26px;
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+}
+div.car input:hover{
+   border: 2px solid #9F0F0F;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+div.car p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;;
+    color:#9F0F0F;
+    padding-top: 20px;
+    line-height: 30px;
+    position: absolute;
+    bottom: 80px;
+    width: 250px;
+}
+.line-break{
+    width: 100%;
+    height: 1px;
+}

@@ -1,0 +1,30 @@
+section.question{
+    width: 800px;
+    height: 200px;
+    border-radius: 100px;
+    border: 2px solid #9F0F0F;
+    margin: 50px auto;
+    background-color: #E1E2E1;
+    color: #9F0F0F;
+}
+section.question img{
+    height: 100px;
+    margin: 40px 0px 0px 20px;
+    float: left;
+}
+h1{
+    text-align: center;
+    font-size: 32px;
+    padding: 20px 0px;
+    color:#A70A0E;
+    text-shadow: -1px -1px 1px rgb(105, 4, 4);
+}
+main{
+    width: 1200px;
+}
+section.question p{
+    line-height: 34px;
+    font-size: 22px;
+    padding: 20px 0px 0px 170px;
+    width: 700px;
+}
