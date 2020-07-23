@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel = "stylesheet" href = "../styles/order_style.css">
+    <title>Заказ</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class = 'headerchild'>Автосалон AutoSmart<br> в Минске</div>
+            <div class = 'headerchild'><img src="../img/logo.png" alt=""></div>
+            <div class = 'headerchild'>
+                <p>+375 29 363 84 23</p>
+                <p>autosmart.minsk@gmail.com</p>
+                <p>Минск</p>
+            </div>
+            <div class = 'headerchild'>
+                <input type="submit" value = "ВЫБРАТЬ АВТО" onclick="window.location.href = 'catalog.html';">
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href = '../index.html'>Главная</a></li>
+                <li><a href = 'catalog.html'>Каталог</a></li>
+                <li><a href = 'questions.html'>Вопросы</a></li>
+                <li><a href = '#' class = "active">Заказ</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Заполни заявку на покупку автомобиля!</h1>
+        <form>
+    
+            Ваше имя:<br>
+            <input type="text"><br>
+            Ваша фамилия:<br>
+            <input type="text"><br>
+            Ваше отчество:<br>
+            <input type="text"><br>
+            Ваш телефон:<br>
+            <input type="tel"><br>
+            Ваш e-mail:<br>
+            <input type="text"><br>
+            Выбранный автомобиль:<br>
+            <select>
+                <option value = "Opel Astra GTC">Opel Astra GTC</option>
+                <option value = "Lada Granta">Lada Granta</option>
+                <option value = "Skoda Karoq Style">Skoda Karoq Style</option>
+                <option value = "Mazda 3 Hatchback">Mazda 3 Hatchback</option>
+                <option value = "Skoda Kodiaq Ambition">Skoda Kodiaq Ambition</option>
+                <option value = "Toyota Camry">Toyota Camry</option>
+                <option value = "Toyota C-HR">Toyota C-HR</option>
+                <option value = "Toyota Highlander">Toyota Highlander</option>
+                <option value = "Mazda CX-9">Mazda CX-9</option>
+            </select><br>
+            Способ приобретения:<br>
+            <input type="radio" name = 'type' class = 'type'>Покупка<br>
+            <input type="radio" name = 'type' class = 'type'>Кредит<br>
+            <input type="radio" name = 'type' class = 'type'>Рассрочка<br>
+            Дополнительная информация и вопросы:<br>
+            <textarea></textarea><br>
+            <input type="submit" value = 'Отправить заявку' id = 'send'>
+        </form>
+        </main>
+        <footer>
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A3b32092a353a7c65b56a5e147616cb264a81db3a2f23d9b01049f62e4dc76618&amp;source=constructor" width="480" height="285" frameborder="0"></iframe>
+            <div><img src="../img/logo.png" alt=""></div>
+            <div>
+                <p>+375 29 363 84 23</p>
+                <p>autosmart.minsk@gmail.com</p>
+                <p>Минск</p>
+            </div>
+            <div class = 'socials'>
+                <a href = "https://vk.com/id407912317" target="_blank"><img src="../img/vk1.png" alt=""></a>
+                <a href = "https://www.instagram.com/autosmart/" target="_blank"><img src="../img/insta.png" alt=""></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
